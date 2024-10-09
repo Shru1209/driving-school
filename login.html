@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Bahekar Driving Academy</div>
+        <nav>
+            <ul>
+                <li><a class="nav-content" href="index.html">Home</a></li>
+                
+                
+                <li><a class="nav-content" href="contact.html">Contact Us</a></li>
+                <li><a  href="#" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Login</h2>
+        <form action="login_process.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+            <p>
+                Dont have account?<a href="registrationpage.html">click here to  signup</a> 
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+     
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="contact-info">
+            <p>Address: Bahekar Driving Academy, boisar.</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: bahekardrivingacademy@gmail.com</p>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

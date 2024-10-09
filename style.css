@@ -1,0 +1,442 @@
+
+
+nav ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+.nav-content{
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* General button styling */
+.btn-enroll {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.btn-enroll:hover {
+    background-color: #0056b3; /* Darker blue when hovering */
+}
+
+/* Additional focus effect (for keyboard users) */
+.btn-enroll:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #0056b3; /* Custom shadow */
+}
+
+
+footer {
+    background-color: #004b87;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #004b87;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; /* Wrap links to new line if space is tight */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.login-btn {
+    background-color: #ff9900; /* Same color as the main button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    max-width: 800px; /* Limit max width */
+    margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and navigation */
+        align-items: center; /* Center items */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation links */
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Vertical spacing for stacked items */
+    }
+
+    .hero {
+        height: 250px; /* Reduce height for smaller screens */
+    }
+
+    .btn, .login-btn {
+        padding: 8px 15px; /* Adjust button size */
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .hero h1 {
+        font-size: 1.5em; /* Smaller font size for h1 */
+    }
+
+    .hero p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    background-color: #004b87;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366; /* Darker shade for hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #004b87;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Links Responsive */
+.footer-links a {
+    display: block; /* Stack footer links */
+    margin: 5px 0;
+}
+/* enrollment form */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%; /* Full-width inputs */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* payment options */
+/* style.css */
+b/* Add this to your existing CSS file */
+.hidden {
+    display: none; /* Hide elements with this class */
+}
+
+#paymentForm {
+    margin-top: 20px;
+}
+
+#paymentForm label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#paymentForm input {
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjusting for padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#paymentForm button {
+    margin-top: 15px;
+    background-color: #000000; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#paymentForm button:hover {
+    background-color: #218838; /* Darker green */
+}
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Better readability */
+}
+
+/* Header styles */
+header {
+    background: #35424a; /* Dark header background */
+    color: #ffffff; /* White text */
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Inline list items */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px; /* Max width for the content */
+    margin: 20px auto; /* Center align the content */
+    padding: 20px;
+    background: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #333; /* Header color */
+    margin-bottom: 10px; /* Space below */
+}
+
+form {
+    display: flex; /* Flexbox for form elements */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+label {
+    margin: 10px 0 5px; /* Space for labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="date"],
+input[type="time"],
+select {
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each field */
+}
+
+button {
+    padding: 10px;
+    background-color: #35424a; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger text */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    background: #35424a; /* Dark footer background */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center text */
+    padding: 15px 0; /* Padding for footer */
+    position: relative; /* Positioning context */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
+
+.footer-links {
+    margin: 10px 0; /* Space above/below links */
+}
+
+.footer-links a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+/* Body and Header Styles */
+
+
+header {
+    background: #35424a; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 600px; /* Center content */
+    margin: 20px auto; /* Centering with auto margins */
+    padding: 20px;
+    background: #fff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Payment Options Styles */
+.payment-options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0; /* Space between buttons */
+    background-color: #333; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Larger text */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #182e46; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff; /* Darker text for footer */
+}
